@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Cairo', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+h1,p{
+  text-align: center;
+  margin-top: 50px;
+font-size: 30px;
+}
+h1{
+  font-size: 50px;
+}
+
+.cards,.cardsSearch{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card{
+  width: 350px;
+  margin: 20px;
+  background-color: rgb(199, 189, 132);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: rgb(31, 29, 29);
+  transition: 0.3s;
+}
+.card:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  transform: translateY(-10px);
+}
+.card h3{
+  font-weight: 300;
+}
+h3{
+  margin: 5px;
+}
+img{
+  width: 350px;
+  height: 350px;
+  border-radius: 8px 8px 0 0;
+
+}
+.countiner{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+ align-items: center;
+}
+.search{
+  margin: 50px 0;
+}
+.search input{
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid rgb(205, 206, 203);
+  outline: none;
+}
+.search button{
+  width: 120px;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(199, 189, 132);
+}
+
+.cardsSearch button{
+  width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+}
+.form{
+  background-color: rgb(199, 214, 214);
+  position: absolute;
+  top: 200px;
+  text-align: center;
+  border-radius: 8px;
+
+}
+h2{
+  padding: 20px 0 0 0;
+  font-size: 50px;
+}
+ form{
+  padding:0 50px 50px 50px;
+
+ }
+form input,label{
+  display: block;
+  font-size: 30px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+  margin: auto;
+}
+.closeform{
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+}
+.submit{
+  margin: 40px auto -20px;
+  padding: 10px;
+  width: 150px;
+  border-radius: 30px;
+  outline: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.submit:hover{
+  background-color: rgb(199, 189, 132) ;
+}
